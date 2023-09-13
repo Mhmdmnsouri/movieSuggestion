@@ -1,0 +1,42 @@
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+    .btn {
+        font-size: 18px !important;
+    }
+
+    .optionContainer {
+        height: 35vh!important;
+    }
+    .optionItem{
+        width: 16em!important;
+    }
+}
+
+@media (min-width: 992px) {
+    .btn {
+        font-size: 22px !important;
+    }
+
+    .optionContainer {
+        height: 40vh!important;
+    }
+    .optionItem{
+        width: 20em!important;
+    }
+  
+}
+
+@media (min-width: 1200px) {
+    .optionContainer{
+        flex-direction: row!important;
+        justify-content: space-around!important;
+        width: 80%;
+    }
+    .optionItem:nth-child(2){
+        order: 2;
+    }
+    .optionItem:last-child{
+        order: 1;
+    }
+}

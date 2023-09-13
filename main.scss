@@ -1,0 +1,31 @@
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 100%;
+    padding: 16px 28px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+body{
+    background-color: #000;
+    color: #fff;
+}
+
+.main{
+    height: 100vh;
+    .optionContainer{
+        height: 30vh;
+        justify-content: space-between;
+    }
+    .optionItem{
+        width: 14em;
+    }
+}
