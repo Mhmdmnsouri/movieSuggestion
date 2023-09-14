@@ -13,6 +13,25 @@
   border-radius: 5px;
   font-weight: 600;
   cursor: pointer;
+  transition: all 0.3s;
+}
+.btn:hover {
+  background-color: azure;
+}
+
+.mobileAloneItem {
+  transform: translateY(-10em);
+  transition: all 1.5s;
+}
+
+.mobileAdminItem {
+  transform: translateY(-15em);
+  transition: all 1.5s;
+}
+
+.mobileSomeoneItem {
+  transform: translateY(-20em);
+  transition: all 1.5s;
 }
 
 body {
